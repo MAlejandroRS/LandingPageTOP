@@ -16,25 +16,29 @@
 .navbar{
     display: flex;
     background-color: var(--primary);
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 #navbar__logo{
     flex: 1;
-    text-align: start;
+    /* text-align: start; */
     font-size: 24px;
     font-weight: 400;
     padding: 10px;
     margin-left: 15rem;
+    min-width: 350px;
     color: var(--mainText);
+    flex-wrap: wrap;
 }
 
 .navbar__links{
     flex: 1;
+    flex-wrap: wrap;
     justify-content:flex-end;
     align-items: center;
     display:flex;
     margin-right: 15rem;
+    min-width: 350px;
 }
 
 .navbar p{
