@@ -5,3 +5,74 @@
     --btnColor: #3882F6;
     --infoText: #1F2937;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: var(--primary);
+    justify-content: flex-end;
+}
+
+#navbar__logo{
+    flex: 1;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 15rem;
+    color: var(--mainText);
+}
+
+.navbar__links{
+    flex: 1;
+    justify-content:flex-end;
+    align-items: center;
+    display:flex;
+    margin-right: 15rem;
+}
+
+.navbar p{
+    flex-grow: 1;
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+.navbar__links a{
+    text-decoration: none;
+    color: var(--secondary);
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.firstContainer{
+    display:flex;
+    background-color: var(--primary);
+    height: 25vh;
+}
+
+#firstContainer__subtext{
+    color: var(--secondary);
+}
+
+.mainText{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: var(--mainText);
+}
+
+div button{
+    background-color: var(--btnColor);
+    color: var(--mainText);
+    font-size: 14px;
+    font-weight:bolder;
+    border-radius: 7px;
+    border-width: 0px;
+    width: 100px;
+    height: 30px;
+}
