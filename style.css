@@ -30,17 +30,11 @@ html{
     /* flex: 1; */
     /* text-align: start; */
     font-size: 24px;
-    font-weight: 400;
+    font-weight: bold;
     padding: 10px;
     margin-left: 15rem;
     margin-right: auto;
     color: var(--mainText);
-}
-
-.navbar__links{
-    /* min-width: 350px; */
-    /* flex: 1; */
-
 }
 
 .navbar nav{
@@ -62,49 +56,59 @@ html{
 .signUp--top{
     display:flex;
     background-color: var(--primary);
-    height: 22.5vh;
-    
+    height: 27rem;
+    justify-content: space-between
 }
 
 .signUp__div{
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     margin-top: 10vh;
     margin-left: 15rem;
-    width: 400px;
+    width: 29rem;
+    height: 16rem;
 }
 
 .signUp__header{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 700;
     color: var(--mainText);
 }
 
 .signUp__p{
     color: var(--secondary);
+    margin: 10px 0px;
+    font-size: 18px;
 }
 
 
 .signUp_button{
     background-color: var(--btnColor);
     color: var(--mainText);
-    font-size: 14px;
-    font-weight:bolder;
+    font-size: 17px;
+    font-weight: bolder;
     border-radius: 7px;
     border-width: 0px;
-    width: 100px;
-    height: 30px;
-}
-
-.signUp_img{
-    margin-top: 10vh;
-    width: 400px;
+    width: 120px;
+    height: 37px;
+    margin-top: 5px;
 }
 
 .signUp_button--bottom{
     border-style: solid;
     border-width: 3px;
 }
+
+.signUp_img{
+    margin-top: 10vh;
+    width: 35rem;
+    height: 16rem;
+    margin-right: 15rem;
+    object-fit: cover;
+}
+
+
 
 .randomInfo{
     display:flex;
