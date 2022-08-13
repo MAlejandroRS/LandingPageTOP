@@ -6,45 +6,50 @@
     --infoText: #1F2937;
 }
 
+html{
+    background-color: #2F2230
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 
 .navbar{
     display: flex;
     background-color: var(--primary);
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-#navbar__logo{
-    flex: 1;
+.navbar__logo{
+    /* min-width: 350px; */
+    /* flex: 1; */
     /* text-align: start; */
     font-size: 24px;
     font-weight: 400;
     padding: 10px;
     margin-left: 15rem;
-    min-width: 350px;
+    margin-right: auto;
     color: var(--mainText);
-    flex-wrap: wrap;
 }
 
 .navbar__links{
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content:flex-end;
-    align-items: center;
-    display:flex;
-    margin-right: 15rem;
-    min-width: 350px;
+    /* min-width: 350px; */
+    /* flex: 1; */
+
 }
 
-.navbar p{
-    flex-grow: 1;
-    font-size: 18px;
-    color: var(--secondary);
+.navbar nav{
+    margin-right: 15rem;
+}
+
+.navbar__links li{
+    display: inline-block;
+    list-style: none;
 }
 
 .navbar__links a{
@@ -54,23 +59,33 @@
     padding: 10px;
 }
 
-.firstContainer{
+.signUp--top{
     display:flex;
     background-color: var(--primary);
-    height: 25vh;
+    height: 22.5vh;
+    
 }
 
-#firstContainer__subtext{
-    color: var(--secondary);
+.signUp__div{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-left: 15rem;
+    width: 400px;
 }
 
-.mainText{
+.signUp__header{
     font-size: 48px;
     font-weight: extra-bold;
     color: var(--mainText);
 }
 
-div button{
+.signUp__p{
+    color: var(--secondary);
+}
+
+
+.signUp_button{
     background-color: var(--btnColor);
     color: var(--mainText);
     font-size: 14px;
@@ -79,4 +94,19 @@ div button{
     border-width: 0px;
     width: 100px;
     height: 30px;
+}
+
+.signUp_img{
+    margin-top: 10vh;
+    width: 400px;
+}
+
+.signUp_button--bottom{
+    border-style: solid;
+    border-width: 3px;
+}
+
+.randomInfo{
+    display:flex;
+    margin-top: 20vh;
 }
