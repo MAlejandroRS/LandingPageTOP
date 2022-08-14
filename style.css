@@ -193,6 +193,7 @@ html{
     background-color: var(--btnColor);
     width: 60%;
     height: 10rem;
+    border-radius: 10px;
 }
 
 .signUp--bottom__div strong{
@@ -205,5 +206,17 @@ html{
 #span{
     font-size: 16px;
     font-weight: 400;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    height: 6rem;
+}
+
+footer p {
+    color: var(--mainText);
 }
 
